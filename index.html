@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Match Game</title>
+  </head>
+  <body>
+    <section>
+      <div class="grid">
+        <h1>Match Game</h1>
+        <div class="sinais">Sinais</div>
+        <div class="head">></div>
+        <div class="middle">=</div>
+        <div class="bottom"><</div>
+      </div>
+
+      <div class="grid-game">
+        <div class="place-holder" id="place-holder-1">A</div>
+        <input type="text" class="input-0" id="input-0" />
+        <div class="place-holder" id="place-holder-2">B</div>
+        <input type="text" class="input-1" id="input-1" />
+        <div class="place-holder" id="place-holder-3">C</div>
+      </div>
+
+      <div class="grid-buttons">
+        <button class="button-submit" id="button-submit">Submit</button>
+        <button class="button-start-game">Start Game</button>
+        <button class="button-next-round">Next Round</button>
+      </div>
+
+      <div class="score-grid">
+        <div class="score">Score</div>
+        <div class="score-field" id="score-0">0</div>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+    <!-- <script src="./app.js"></script> -->
+  </body>
+</html>
